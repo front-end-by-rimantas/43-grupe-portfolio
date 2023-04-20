@@ -18,6 +18,9 @@
 /* hero: end */
 
 /* about: start */
+.about .section-title {
+    margin-bottom: 1em;
+}
 /* about: end */
 
 /* services: start */
