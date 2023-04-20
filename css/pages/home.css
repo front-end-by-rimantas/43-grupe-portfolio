@@ -3,8 +3,11 @@
 @import '../base/layout.css';
 
 /* 3rd-party */
+@import '../3rd-party/font-awesome.min.css';
 
 /* components */
+@import '../components/button.css';
+@import '../components/form.css';
 
 /* CUSTOM STYLE */
 
