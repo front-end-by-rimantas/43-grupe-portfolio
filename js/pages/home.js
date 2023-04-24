@@ -1,15 +1,4 @@
 // IMPORTS
-import sum from '../components/math/sum.js';
-import multiply from '../components/math/multiply.js';
-
-console.clear();
-console.log('Labas rytas :)');
-
-const x = sum(7, 5);
-console.log(x);
-
-const y = multiply(7, 5);
-console.log(y);
 
 // FUNCTION EXECUTION
 
