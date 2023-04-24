@@ -54,7 +54,6 @@
     width: var(--width);
     margin: 20px calc((100% - var(--width)) / 2);
     float: left;
-    background-color: pink;
 }
 .container-fluid > .row {
     width: 100%;
@@ -65,7 +64,6 @@
 .row > [class*='col-'] {
     float: left;
     margin: var(--half-gap);
-    background-color: aqua;
 }
 .row > .col-1 {
     width: var(--c1);

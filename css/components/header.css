@@ -1,0 +1,37 @@
+.main-header {
+    padding-top: 0;
+    padding-bottom: 0;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.main-header.scrolled {
+    background-color: #fff;
+    box-shadow: 0 4px 20px #0003;
+}
+.main-header .row {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.main-header .col-12 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header .logo {
+    height: 20px;
+}
+
+.main-header .main-nav {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    font-weight: bold;
+}
+.main-header .main-nav > a {
+    color: #fff;
+    text-decoration: none;
+}
+.main-header.scrolled .main-nav > a {
+    color: #000;
+}

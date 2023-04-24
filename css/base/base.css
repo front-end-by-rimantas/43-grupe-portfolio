@@ -1,5 +1,7 @@
 :root {
     --main-color: #f34236;
+    --light-grey: #f3f3f3;
+    --dark: #212121;
 }
 
 body,
@@ -14,11 +16,64 @@ body {
         sans-serif;
 }
 
+main {
+    display: inline-block;
+    width: 100%;
+}
+
 img {
     max-width: 100%;
+}
+
+p {
+    margin: 0.5em 0;
+    font-size: 18px;
+    line-height: 1.2em;
+}
+
+.bg-main {
+    background-color: var(--main-color);
+    color: #fff;
+}
+.bg-light-grey {
+    background-color: var(--light-grey);
+}
+.bg-dark {
+    background-color: var(--dark);
+    color: #fff;
+}
+
+.center {
+    text-align: center;
 }
 
 .main-title {
 }
 .section-title {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+.section-title.section-title-left {
+    text-align: left;
+}
+.section-title > span {
+    color: var(--main-color);
+}
+.section-title::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: var(--dark);
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.section-title.section-title-left::after {
+    left: 0;
+    transform: none;
 }

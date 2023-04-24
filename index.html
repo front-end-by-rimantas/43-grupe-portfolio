@@ -10,17 +10,17 @@
 </head>
 
 <body>
-    <header class="container">
+    <header class="container main-header scrolled">
         <div class="row">
             <div class="col-12">
-                <img src="./img/logo.png" alt="Logo">
-                <nav>
-                    <a href="">Home</a>
-                    <a href="">About</a>
-                    <a href="">Services</a>
-                    <a href="">Portfolio</a>
-                    <a href="">Blog</a>
-                    <a href="">Contact</a>
+                <img class="logo" src="./img/logo.png" alt="Logo">
+                <nav class="main-nav">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Portfolio</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
                 </nav>
             </div>
         </div>
@@ -28,7 +28,7 @@
 
     <main>
         <!-- hero: start -->
-        <section class="container">
+        <section class="container bg-dark center">
             <div class="row">
                 <div class="col-12 col-lg-10 ml-lg-1 col-xl-8 ml-xl-2">
                     <p>Hello! i'm</p>
@@ -41,11 +41,11 @@
         <!-- hero: end -->
 
         <!-- about: start -->
-        <section class="container">
+        <section class="container about">
             <div class="row">
                 <img class="col-12 col-lg-5" src="./img/about/avtar-01.jpg" alt="Selfie">
                 <div class="col-12 col-lg-7">
-                    <h2 class="section-title">About me</h2>
+                    <h2 class="section-title section-title-left">About <span>me</span></h2>
                     <p>Hello! i'm Martin Luther</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
                     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -65,9 +65,9 @@
         <!-- about: end -->
 
         <!-- services: start -->
-        <section class="container">
+        <section class="container bg-light-grey">
             <div class="row">
-                <h2 class="col-12 section-title">My services</h2>
+                <h2 class="col-12 section-title"><span>My</span> services</h2>
             </div>
             <div class="row">
                 <div class="col-12 col-sm-6 col-lg-4">
@@ -107,7 +107,7 @@
         <!-- resume: start -->
         <section class="container">
             <div class="row">
-                <h2 class="col-12 section-title">My resume</h2>
+                <h2 class="col-12 section-title"><span>My</span> resume</h2>
             </div>
             <div class="row">
                 <div class="col-12 col-md-6">
@@ -141,7 +141,7 @@
         <!-- resume: end -->
 
         <!-- freelance: start -->
-        <section class="container">
+        <section class="container bg-main center">
             <div class="row">
                 <div class="col-12">
                     <p>I am available for freelance</p>
@@ -154,7 +154,7 @@
         <!-- portfolio: start -->
         <section class="container">
             <div class="row">
-                <h2 class="col-12 section-title">My portfolio</h2>
+                <h2 class="col-12 section-title"><span>My</span> portfolio</h2>
             </div>
             <div class="row">
                 <div class="col-12">
@@ -165,7 +165,7 @@
         <!-- portfolio: end -->
 
         <!-- testimonials: start -->
-        <section class="container">
+        <section class="container bg-light-grey">
             <div class="row">
                 <div class="col-12 col-md-8 ml-md-2 col-lg-6 ml-lg-3">
                     TESTIMONIALS
@@ -177,7 +177,7 @@
         <!-- blog: start -->
         <section class="container">
             <div class="row">
-                <h2 class="col-12 section-title">My blogs</h2>
+                <h2 class="col-12 section-title"><span>My</span> blogs</h2>
             </div>
             <div class="row">
                 <article class="col-12 col-md-6 col-lg-4">
@@ -215,9 +215,9 @@
         <!-- blog: end -->
 
         <!-- contact: start -->
-        <section class="container">
+        <section class="container bg-light-grey">
             <div class="row">
-                <h2 class="col-12 section-title">Contact me</h2>
+                <h2 class="col-12 section-title">Contact <span>me</span></h2>
             </div>
             <div class="row">
                 <form class="form col-12 col-lg-7 col-xl-6 ml-xl-1">
@@ -251,7 +251,7 @@
         <!-- contact: end -->
     </main>
 
-    <footer>
+    <footer class="container bg-dark center">
         <img src="./img/logo-white.png" alt="Logo">
         <div class="socials">
             <a class="fa fa-twitter" href="#" target="_blank"></a>
@@ -263,6 +263,8 @@
         </div>
         <p>&copy; 2023 copyright all right reserved</p>
     </footer>
+
+    <script src="./js/pages/home.js" type="module" defer></script>
 </body>
 
 </html>

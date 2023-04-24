@@ -1,7 +1,7 @@
 .btn {
     display: inline-block;
     padding: 0.5em 1.2em;
-    background-color: #fd6363;
+    background-color: var(--main-color);
     color: #fff;
     font-family: inherit;
     font-size: 20px;
@@ -16,7 +16,7 @@
     cursor: pointer;
 }
 .btn:hover {
-    background-color: #f00;
+    background-color: #000;
     box-shadow: 0 0.1em 0.25em #0007;
 }
 
