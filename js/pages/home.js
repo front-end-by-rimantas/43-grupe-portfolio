@@ -1,4 +1,5 @@
 // IMPORTS
+import { services } from '../components/services.js';
 
 // FUNCTION EXECUTION
 
@@ -56,6 +57,7 @@ if (pDOM.classList.contains('kamuolys')) {
 /* about: end */
 
 /* services: start */
+services();
 /* services: end */
 
 /* resume: start */
