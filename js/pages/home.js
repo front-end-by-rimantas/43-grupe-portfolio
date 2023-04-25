@@ -59,15 +59,57 @@ if (pDOM.classList.contains('kamuolys')) {
 
 /* services: start */
 
-// services(services, servicesData);
-// services(servicesData);
-// services();
-// services(777, servicesData);
-// services(true, servicesData);
-// services([], servicesData);
-// services({}, servicesData);
-// services('', servicesData);
-// services('services_block2', servicesData);
+services(services, servicesData);
+services(777, servicesData);
+services(true, servicesData);
+services([], servicesData);
+services({}, servicesData);
+services('', servicesData);
+services('services_block2', servicesData);
+
+services(servicesData);
+services();
+
+services('services_block', 'labas');
+services('services_block', true);
+services('services_block', 777);
+services('services_block', null);
+services('services_block', {});
+services('services_block', []);
+services('services_block', [777]);
+services('services_block', ['labas']);
+services('services_block', [true, false]);
+services('services_block', [null]);
+services('services_block', [[]]);
+services('services_block', [{}]);
+services('services_block', [{ icon: 'globe' }]);
+services('services_block', [{ title: 'globe' }]);
+services('services_block', [{ description: 'globe' }]);
+services('services_block', [{ icon: 'globe', description: 'globe' }]);
+services('services_block', [{ title: 'globe', description: 'globe' }]);
+services('services_block', [{ title: 'globe', icon: 'globe' }]);
+services('services_block', [
+    { icon: 777, title: 'globe', description: 'globe' },
+]);
+services('services_block', [
+    { icon: '', title: 'globe', description: 'globe' },
+]);
+services('services_block', [
+    { icon: 'globe', title: [777], description: 'globe' },
+]);
+services('services_block', [
+    { icon: 'globe', title: 'globe', description: [777] },
+]);
+services('services_block', [
+    { icon: 'globe', title: '', description: 'globe' },
+]);
+services('services_block', [
+    { icon: 'globe', title: 'globe', description: '' },
+    { icon: 'globe', title: 'globe', description: '' },
+    { icon: 'globe', title: 'globe', description: '' },
+    { icon: 'globe', title: 'globe', description: '' },
+    { icon: 'globe', title: 'globe', description: '' },
+]);
 
 services('services_block', servicesData);
 
