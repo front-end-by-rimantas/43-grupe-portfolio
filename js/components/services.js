@@ -1,43 +1,4 @@
-function services() {
-    const data = [
-        {
-            icon: 'globe',
-            title: 'Search Optimization',
-            description:
-                'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos pariatur accusamus?',
-        },
-        {
-            icon: 'plane',
-            title: 'Logo & Identity',
-            description:
-                'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos pariatur accusamus?',
-        },
-        {
-            icon: 'bars',
-            title: 'Graphics Design',
-            description:
-                'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos pariatur accusamus?',
-        },
-        {
-            icon: 'twitter',
-            title: 'Fully Responsive',
-            description:
-                'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos pariatur accusamus?',
-        },
-        {
-            icon: 'bath',
-            title: 'Advanced Options',
-            description:
-                'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos pariatur accusamus?',
-        },
-        {
-            icon: 'car',
-            title: 'Reasonable Pricing',
-            description:
-                'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos pariatur accusamus?',
-        },
-    ];
-
+function services(selector, data) {
     let HTML = '';
 
     for (const service of data) {
@@ -48,7 +9,7 @@ function services() {
                 </div>`;
     }
 
-    const DOM = document.getElementById('services_block');
+    const DOM = document.getElementById(selector); // null
     DOM.innerHTML = HTML;
 }
 
